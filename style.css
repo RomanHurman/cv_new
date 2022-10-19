@@ -345,6 +345,7 @@ p {
     max-width: 1140px;
     padding: 2em 3em;
     width: 100%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 850px) {
