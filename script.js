@@ -27,3 +27,9 @@ $(".logo").hover(
     $(this).find("p").last().remove();
   }
 );
+
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $(".download-cv").hide();
+  });
+});
