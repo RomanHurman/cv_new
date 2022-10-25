@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     div[0].style.display = 'none';
 
     var link = document.getElementsByClassName('download-cv');
-				link[0].style.display = 'none';
+    link[0].style.display = 'none';
 
   }
   var phoneHide = document.getElementById('phoneHide');
@@ -28,8 +28,8 @@ $(".logo").hover(
   }
 );
 
-$(document).ready(function(){
-  $("#hide").click(function(){
+$(document).ready(function () {
+  $("#hide").click(function () {
     $(".download-cv").hide();
   });
 });
